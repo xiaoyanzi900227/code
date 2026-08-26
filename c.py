@@ -1,4 +1,8 @@
-for r in range(1,10):
-    for c in range(1,r+1):
-        print("{0}*{1}={2}".format(c,r,c*r),end=" ")
+r=1
+while r<=9:
+    c=1
+    while c<=r:
+        print("{0}*{1}={2}".format(r,c,r*c),end=" ")
+        c+=1
     print()
+    r+=1
